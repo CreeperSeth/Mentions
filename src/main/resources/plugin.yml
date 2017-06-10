@@ -1,0 +1,5 @@
+main: me.creeperseth.mentions.Mentions
+name: Mentions
+version: 1.0
+author: CreeperSeth
+description: To mention a user, @username them.
