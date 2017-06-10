@@ -24,7 +24,7 @@ public class Mentions extends JavaPlugin implements Listener
     {  
     }
     
-    @EventHandler(priority = EventPriority.HIGH)
+    @EventHandler(priority = EventPriority.MONITOR)
     public void onPlayerChat(AsyncPlayerChatEvent event)
     {
         String message = event.getMessage().toLowerCase();
