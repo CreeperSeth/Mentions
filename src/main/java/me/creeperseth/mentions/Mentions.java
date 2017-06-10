@@ -32,7 +32,7 @@ public class Mentions extends JavaPlugin implements Listener
         {
             if (ChatColor.stripColor(message).contains("@" + player.getName().toLowerCase()))
             {
-                player.playSound(player.getLocation(), Sound.BLOCK_NOTE_PLING, SoundCategory.MASTER, 1337F, 0.9F);
+                player.playSound(player.getLocation(), Sound.BLOCK_NOTE_PLING, SoundCategory.MASTER, 1337F, 2F);
             }
         }
     }
